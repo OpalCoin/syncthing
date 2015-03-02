@@ -32,12 +32,6 @@
       <span class="navbar-brand"><img class="logo" src="assets/img/logo-horizontal.svg" height="32" width="117"/></span>
       <p class="navbar-text hidden-xs">{{thisDeviceName()}}</p>
       <ul class="nav navbar-nav navbar-right">
-        <li ng-if="upgradeInfo && upgradeInfo.newer">
-          <button type="button" class="btn navbar-btn btn-primary btn-sm" href="" ng-click="upgrade()">
-            <span class="glyphicon glyphicon-chevron-up"></span>&emsp;
-            <span translate translate-value-version="{{upgradeInfo.latest}}">Upgrade To {%version%}</span>
-          </button>
-        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog" aria-label="Edit"></span></a>
           <ul class="dropdown-menu">
