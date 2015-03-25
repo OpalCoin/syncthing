@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/config"
-	"github.com/syncthing/syncthing/internal/symlinks"
+	"github.com/opalcoin/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/symlinks"
 )
 
 func symlinksSupported() bool {

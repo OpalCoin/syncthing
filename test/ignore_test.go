@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/symlinks"
+	"github.com/opalcoin/syncthing/internal/symlinks"
 )
 
 func TestIgnores(t *testing.T) {

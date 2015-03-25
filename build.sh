@@ -113,8 +113,8 @@ case "${1:-default}" in
 
 	docker-all)
 		docker run --rm -h syncthing-builder -u $(id -u) -t \
-			-v $(pwd):/go/src/github.com/syncthing/syncthing \
-			-w /go/src/github.com/syncthing/syncthing \
+			-v $(pwd):/go/src/github.com/opalcoin/syncthing \
+			-w /go/src/github.com/opalcoin/syncthing \
 			-e "STTRACE=$STTRACE" \
 			syncthing/build:latest \
 			sh -c './build.sh clean \
@@ -126,8 +126,8 @@ case "${1:-default}" in
 
 	docker-test)
 		docker run --rm -h syncthing-builder -u $(id -u) -t \
-			-v $(pwd):/go/src/github.com/syncthing/syncthing \
-			-w /go/src/github.com/syncthing/syncthing \
+			-v $(pwd):/go/src/github.com/opalcoin/syncthing \
+			-w /go/src/github.com/opalcoin/syncthing \
 			-e "STTRACE=$STTRACE" \
 			syncthing/build:latest \
 			sh -euxc './build.sh clean \

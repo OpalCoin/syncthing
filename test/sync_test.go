@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/config"
 )
 
 func TestSyncClusterWithoutVersioning(t *testing.T) {

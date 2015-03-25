@@ -26,7 +26,7 @@ func TestRestartSenderDuringTransfer(t *testing.T) {
 func TestRestartSenderAndReceiverDuringTransfer(t *testing.T) {
 	// Give the receiver some time to rot with needed files but
 	// without any peer. This triggers
-	// https://github.com/syncthing/syncthing/issues/463
+	// https://github.com/opalcoin/syncthing/issues/463
 	testRestartDuringTransfer(t, true, true, 10*time.Second, 0)
 }
 

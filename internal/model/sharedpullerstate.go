@@ -13,7 +13,7 @@ import (
 	"sync"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/db"
+	"github.com/opalcoin/syncthing/internal/db"
 )
 
 // A sharedPullerState is kept for each file that is being synced and is kept

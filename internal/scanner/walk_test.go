@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/ignore"
+	"github.com/opalcoin/syncthing/internal/ignore"
 	"golang.org/x/text/unicode/norm"
 )
 

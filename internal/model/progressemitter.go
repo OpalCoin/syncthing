@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/config"
-	"github.com/syncthing/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/events"
 )
 
 type ProgressEmitter struct {

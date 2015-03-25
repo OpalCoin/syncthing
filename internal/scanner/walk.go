@@ -16,9 +16,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/ignore"
-	"github.com/syncthing/syncthing/internal/lamport"
-	"github.com/syncthing/syncthing/internal/symlinks"
+	"github.com/opalcoin/syncthing/internal/ignore"
+	"github.com/opalcoin/syncthing/internal/lamport"
+	"github.com/opalcoin/syncthing/internal/symlinks"
 	"golang.org/x/text/unicode/norm"
 )
 

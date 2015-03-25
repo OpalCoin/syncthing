@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/events"
 )
 
 type folderState int

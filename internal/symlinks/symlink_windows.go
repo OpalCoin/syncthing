@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/osutil"
+	"github.com/opalcoin/syncthing/internal/osutil"
 
 	"syscall"
 	"unicode/utf16"

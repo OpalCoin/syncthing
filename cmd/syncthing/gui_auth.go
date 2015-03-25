@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/config"
 	"golang.org/x/crypto/bcrypt"
 )
 

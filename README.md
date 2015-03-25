@@ -2,7 +2,7 @@ syncthing
 =========
 
 [![Latest Build](http://img.shields.io/jenkins/s/http/build.syncthing.net/syncthing.svg?style=flat-square)](http://build.syncthing.net/job/syncthing/lastBuild/)
-[![API Documentation](http://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](http://godoc.org/github.com/syncthing/syncthing)
+[![API Documentation](http://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](http://godoc.org/github.com/opalcoin/syncthing)
 [![MPLv2 License](http://img.shields.io/badge/license-MPLv2-blue.svg?style=flat-square)](https://www.mozilla.org/MPL/2.0/)
 
 This is the `syncthing` project. The following are the project goals:
@@ -26,10 +26,10 @@ Getting Started
 ---------------
 
 Take a look at the [getting started
-guide](https://github.com/syncthing/syncthing/wiki/Getting-Started).
+guide](https://github.com/opalcoin/syncthing/wiki/Getting-Started).
 
 There are a few examples for keeping syncthing running in the background
-on your system in [the etc directory](https://github.com/syncthing/syncthing/blob/master/etc).
+on your system in [the etc directory](https://github.com/opalcoin/syncthing/blob/master/etc).
 
 There is an IRC channel, `#syncthing` on Freenode, for talking directly
 to developers and users (when awake and present, etc.).
@@ -38,7 +38,7 @@ Building
 --------
 
 Building Syncthing from source is easy, and there's a
-[guide](https://github.com/syncthing/syncthing/wiki/Building).
+[guide](https://github.com/opalcoin/syncthing/wiki/Building).
 that describes it for both Unix and Windows.
 
 Signed Releases
@@ -53,8 +53,8 @@ Documentation
 =============
 
 The [syncthing
-documentation](https://github.com/syncthing/syncthing/wiki/) is on the
+documentation](https://github.com/opalcoin/syncthing/wiki/) is on the
 Github wiki.
 
 All code is licensed under the
-[MPLv2](https://github.com/syncthing/syncthing/blob/master/LICENSE).
+[MPLv2](https://github.com/opalcoin/syncthing/blob/master/LICENSE).

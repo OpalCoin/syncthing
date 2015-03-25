@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/osutil"
+	"github.com/opalcoin/syncthing/internal/osutil"
 )
 
 var (
@@ -171,7 +171,7 @@ func copyStderr(stderr io.ReadCloser, dst io.Writer) {
 				}
 
 				l.Warnf("Panic detected, writing to \"%s\"", panicFd.Name())
-				l.Warnln("Please create an issue at https://github.com/syncthing/syncthing/issues/ with the panic log attached")
+				l.Warnln("Please create an issue at https://github.com/opalcoin/syncthing/issues/ with the panic log attached")
 
 				stdoutMut.Lock()
 				for _, line := range stdoutFirstLines {

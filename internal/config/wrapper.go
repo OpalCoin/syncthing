@@ -13,8 +13,8 @@ import (
 	"sync"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/events"
-	"github.com/syncthing/syncthing/internal/osutil"
+	"github.com/opalcoin/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/osutil"
 )
 
 // An interface to handle configuration changes, and a wrapper type á la

@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/fnmatch"
+	"github.com/opalcoin/syncthing/internal/fnmatch"
 )
 
 type Pattern struct {

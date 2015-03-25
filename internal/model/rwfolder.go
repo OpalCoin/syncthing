@@ -17,14 +17,14 @@ import (
 	"time"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/config"
-	"github.com/syncthing/syncthing/internal/db"
-	"github.com/syncthing/syncthing/internal/events"
-	"github.com/syncthing/syncthing/internal/ignore"
-	"github.com/syncthing/syncthing/internal/osutil"
-	"github.com/syncthing/syncthing/internal/scanner"
-	"github.com/syncthing/syncthing/internal/symlinks"
-	"github.com/syncthing/syncthing/internal/versioner"
+	"github.com/opalcoin/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/db"
+	"github.com/opalcoin/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/ignore"
+	"github.com/opalcoin/syncthing/internal/osutil"
+	"github.com/opalcoin/syncthing/internal/scanner"
+	"github.com/opalcoin/syncthing/internal/symlinks"
+	"github.com/opalcoin/syncthing/internal/versioner"
 )
 
 // TODO: Stop on errors

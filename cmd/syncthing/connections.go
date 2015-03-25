@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/events"
-	"github.com/syncthing/syncthing/internal/model"
+	"github.com/opalcoin/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/model"
 )
 
 func listenConnect(myID protocol.DeviceID, m *model.Model, tlsCfg *tls.Config) {

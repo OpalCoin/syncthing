@@ -1,6 +1,6 @@
 [Unit]
 Description=Syncthing - Open Source Continuous File Synchronization
-Documentation=https://github.com/syncthing/syncthing/wiki
+Documentation=https://github.com/opalcoin/syncthing/wiki
 After=network.target
 
 [Service]

@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/config"
-	"github.com/syncthing/syncthing/internal/events"
+	"github.com/opalcoin/syncthing/internal/config"
+	"github.com/opalcoin/syncthing/internal/events"
 )
 
 var timeout = 10 * time.Millisecond

@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/syncthing/syncthing/internal/auto"
+	"github.com/opalcoin/syncthing/internal/auto"
 )
 
 func TestAssets(t *testing.T) {

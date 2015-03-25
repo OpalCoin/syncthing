@@ -16,7 +16,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/model"
+	"github.com/opalcoin/syncthing/internal/model"
 )
 
 // Current version number of the usage report, for acceptance purposes. If

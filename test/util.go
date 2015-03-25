@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncthing/syncthing/internal/symlinks"
+	"github.com/opalcoin/syncthing/internal/symlinks"
 )
 
 func init() {

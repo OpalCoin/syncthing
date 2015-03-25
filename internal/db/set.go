@@ -16,8 +16,8 @@ import (
 	"sync"
 
 	"github.com/syncthing/protocol"
-	"github.com/syncthing/syncthing/internal/lamport"
-	"github.com/syncthing/syncthing/internal/osutil"
+	"github.com/opalcoin/syncthing/internal/lamport"
+	"github.com/opalcoin/syncthing/internal/osutil"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 
